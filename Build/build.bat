@@ -17,4 +17,4 @@ REM Build
 
 REM Package
 mkdir Build
-call %nuget% pack "Saturn72.TestSdk\Saturn72.TestSdk.UnitTesting.csproj" -symbols -o Build -p Configuration=%config% %version%
+call %nuget% pack "Saturn72.TestSdk.UnitTesting\Saturn72.TestSdk.UnitTesting.csproj" -symbols -o Build -p Configuration=%config% %version%

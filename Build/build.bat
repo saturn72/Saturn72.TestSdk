@@ -9,6 +9,9 @@ if not "%PackageVersion%" == "" (
    set version=-Version %PackageVersion%
 )
 
+REM Restore nuget packages
+%NuGet% restore
+
 REM Build
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild Saturn72.TestSdk.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=Normal /nr:false
 

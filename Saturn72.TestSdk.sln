@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saturn72.TestSdk.UnitTesting", "Saturn72.TestSdk.UnitTesting\Saturn72.TestSdk.UnitTesting.csproj", "{5E9A7FFB-C52D-4FC7-B0F3-EA20102730F4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{808C3AEB-BE68-4029-A804-50CA6CDCB16A}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build.bat = Build\build.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
